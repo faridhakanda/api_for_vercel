@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mj0a&x=l_m$d94%iufhp&7yi-3lc9gi!886hp$6+9wi$xqn--k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://faridakanda.pythonanywhere.com/']
 
 
 # Application definition
@@ -128,7 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ALLOWED_ORIGINS = [
-    #'https://user-admin-nextjs.vercel.app/',
-    'http://localhost:3000',
-    'http://localhost:3001'
+    'https://user-admin-nextjs.vercel.app/',
+    #'http://localhost:3000',
+    #'http://localhost:3001'
 ]
